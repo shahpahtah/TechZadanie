@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B878E1FE-6E4A-4635-A2B9-2E9EC9301F5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9D0E9F4E-E529-4E06-87EF-0DE3C33F6E28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CF74CE78-31E0-4801-98A0-5EE7207A3845}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{685D8792-EB6F-4163-AD23-7DFEC16BA241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Techzad", "Techzad\Techzad.csproj", "{CBCC87AB-38A5-4B8F-AAEA-963E4942EFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "techzad.App", "techzad.App\techzad.App.csproj", "{1AA438E1-08CC-4480-BAA9-DF2D5F8B5AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "techzad.Web", "techzad.Web\techzad.Web.csproj", "{B18A16E6-F9F8-4C1E-8C91-6A1CE11BB572}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBCC87AB-38A5-4B8F-AAEA-963E4942EFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCC87AB-38A5-4B8F-AAEA-963E4942EFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCC87AB-38A5-4B8F-AAEA-963E4942EFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCC87AB-38A5-4B8F-AAEA-963E4942EFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA438E1-08CC-4480-BAA9-DF2D5F8B5AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA438E1-08CC-4480-BAA9-DF2D5F8B5AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA438E1-08CC-4480-BAA9-DF2D5F8B5AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA438E1-08CC-4480-BAA9-DF2D5F8B5AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18A16E6-F9F8-4C1E-8C91-6A1CE11BB572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18A16E6-F9F8-4C1E-8C91-6A1CE11BB572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18A16E6-F9F8-4C1E-8C91-6A1CE11BB572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18A16E6-F9F8-4C1E-8C91-6A1CE11BB572}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBCC87AB-38A5-4B8F-AAEA-963E4942EFAB} = {B878E1FE-6E4A-4635-A2B9-2E9EC9301F5D}
+		{1AA438E1-08CC-4480-BAA9-DF2D5F8B5AB8} = {685D8792-EB6F-4163-AD23-7DFEC16BA241}
+		{B18A16E6-F9F8-4C1E-8C91-6A1CE11BB572} = {CF74CE78-31E0-4801-98A0-5EE7207A3845}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5378183-2C66-4769-9AE3-CFE9869DB808}
+	EndGlobalSection
+EndGlobal
